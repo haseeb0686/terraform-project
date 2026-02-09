@@ -1,0 +1,47 @@
+
+```
+# =========================
+# Terraform .gitignore
+# =========================
+
+# Local .terraform directories
+**/.terraform/*
+.terraform/
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore override files (can contain secrets)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore plan files
+*.tfplan
+
+# Ignore lock file? (Generally keep this, so NOT ignored)
+# .terraform.lock.hcl   <-- DO NOT IGNORE (keep this tracked)
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Backup / temp files
+*.bak
+*.swp
+*.tmp
+```
